@@ -1,0 +1,13 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Large datasets
+data/
+*.nc
+
+# Python temporary files
+__pycache__/
+.ipynb_checkpoints/
+.venv/
