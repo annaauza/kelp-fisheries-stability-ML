@@ -1,0 +1,10 @@
+,Value
+Observations,724
+Ports,28
+Catchments,15
+Port_FE,True
+Year_FE,True
+AIC,2302.654357234007
+BIC,2619.0049633086214
+R_squared_including_FE,0.26709085114343145
+Adjusted_R_squared,0.19100257309419988

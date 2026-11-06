@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Stability_a_rel   R-squared:                       0.012
+Model:                            OLS   Adj. R-squared:                  0.009
+Method:                 Least Squares   F-statistic:                     4.624
+Date:                Fri, 06 Nov 2026   Prob (F-statistic):             0.0153
+Time:                        15:54:30   Log-Likelihood:                -5730.3
+No. Observations:                 925   AIC:                         1.147e+04
+Df Residuals:                     921   BIC:                         1.149e+04
+Df Model:                           3                                         
+Covariance Type:              cluster                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       -305.7760    243.093     -1.258      0.225    -818.657     207.105
+ln_HHI        20.9964     10.881      1.930      0.071      -1.960      43.952
+ln_KMASS     170.8544    109.751      1.557      0.138     -60.700     402.408
+ln_KAREA    -167.8886    108.273     -1.551      0.139    -396.324      60.547
+==============================================================================
+Omnibus:                     1733.940   Durbin-Watson:                   1.765
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          2264665.515
+Skew:                          13.130   Prob(JB):                         0.00
+Kurtosis:                     243.976   Cond. No.                     1.27e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)
+[2] The condition number is large, 1.27e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
